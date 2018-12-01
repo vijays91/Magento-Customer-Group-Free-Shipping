@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * @author VIJAYAKUMAR S
+ * @copyright Copyright (c) 2018
+ * @package LWM_Freeship
+ */
+-->
+<config>
+	<modules>
+		<LWM_Freeship>
+			<version>1.0.0</version>
+		</LWM_Freeship>
+	</modules>
+	<global>
+		<models>
+			<lwm_freeship>
+				<class>LWM_Freeship_Model</class>
+			</lwm_freeship>
+		</models>
+		<helpers>
+			<freeship>
+				<class>LWM_Freeship_Helper</class>
+			</freeship>
+		</helpers>
+	</global>
+	<default>
+		<carriers>
+			<lwm_freeship>
+				<active>0</active>
+				<model>lwm_freeship/carrier_freeshipment</model>
+				<title>Free Shipping Based on Customer Group</title>
+				<name>Free Shipping</name>
+				<lwm_free_shipping_subtotal>0</lwm_free_shipping_subtotal>
+				<description>Free Shipping is Available</description>
+			</lwm_freeship>
+		</carriers>
+	</default>
+</config> 

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author VIJAYAKUMAR S
+ * @copyright Copyright (c) 2018
+ * @package LWM_Freeship
+ */
+-->
+<config>
+    <modules>
+        <LWM_Freeship>
+            <active>true</active>
+            <codePool>local</codePool>
+            <version>1.0.0</version>
+        </LWM_Freeship>
+    </modules>
+</config>
